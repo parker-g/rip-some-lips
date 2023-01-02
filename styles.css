@@ -1,0 +1,311 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.small {
+    font-size: medium;
+}
+
+a:visited {
+    color:#1f79ff
+} 
+main {
+    text-align: center;
+    background-attachment: fixed;
+    margin-bottom: 30px;
+}
+main p {
+    font-size: large;
+    max-width: 80%;
+    margin: auto;
+}
+.navbar a{
+    max-height: 48px;
+}
+.hero {
+    position: aboslute;
+    height: 295px;
+}
+h1 {
+    color: #0d7cd0;
+}
+h1, h2,  h3{
+    padding: 30px 15px;
+}
+p {
+    padding: 30px;
+}
+footer {
+    background-color: lightgray;
+    border-top: 1px solid gray;
+    min-height: 200px;
+    align-content: center;
+}
+
+.social_medias {
+    display: block;
+    padding: 15px;
+    align-content: center;
+    text-align: center;
+}
+.contact_link {
+    display: block;
+    padding: 15px;
+    text-align: center;
+}
+.external-resource {
+    display: block;
+    padding: 15px;
+    text-align: center;
+}
+.license_link {
+    display: block;
+    padding: 15px;
+    text-align: center;
+}
+.grid-img {
+    min-width: 200px;
+}
+.subheader {
+    font-size: medium;
+}
+.home-row {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+    row-gap: 10px;
+    background-color: whitesmoke;
+}
+
+.home-row p {
+    float: left;
+    margin: auto;
+    font-size: x-large;
+    font-weight: bold;
+}
+.home-row img {
+    padding: 20px;
+    max-width: 320px;
+}
+ol{
+    padding-left: 0;
+    max-width: 70%;
+    margin: auto;
+    list-style-position: outside;
+}
+main h1 {
+    text-align: center;
+    /* top, right, bottom, left */
+    /* top + bottom, left + right */
+    padding: 30px 0px;
+}
+
+#logo {
+    translate: 0px -10px;
+    max-height: 40px;
+    max-width: 40px;
+    object-fit: contain;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: gray;
+    height: 48px;
+    max-height: 48px; 
+}
+.active {
+    overflow: hidden;
+    background-color: #1f79ff;
+    height: 48px;
+    max-height: 48px; 
+}
+.navbar a {
+    text-decoration: none;
+    padding: 14px 16px;
+    float: left;
+    color: white;
+    text-align: center;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+.dropdown .drop-button-active {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: #0d7cd0;
+    font-family: inherit;
+    margin: 0;
+}
+.dropdown .drop-button {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+.navbar a:hover, .dropdown:hover .drop-button {
+    background-color: #0d7cd0;
+    height: 100%;
+}
+
+.drop-content {
+    display: none;
+    position: absolute;
+    background-color: gray;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.drop-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.drop-content a:hover {
+    background-color: #0d7cd0;
+}
+ .dropdown:hover .drop-content {
+    display: block;
+}
+form {
+    height: 50%;
+    background-color: lightgray;
+    border-radius: 10px;
+    width: 60%;
+    margin: 30px auto;
+}
+input {
+    border-radius: 5px;
+    width: 80%;
+    padding: 16px 8px;
+    margin: 30px  16px;
+    border: none;
+    font-size: x-large;
+}
+.submit {
+    width: 20%;
+    height: 3rem;
+    font-size: x-large;
+    margin: 0px auto 30px;
+    border-radius: 10px;
+    background-color: #3383ff;
+    opacity: 0.9;
+    border: none;
+    cursor: pointer;
+}
+.message {
+    padding-bottom: 90px;
+}
+.submit:active {
+    opacity: 1;
+}
+.rod_image {
+    width: 85%;
+}
+.rod_list {
+    align-content: center;
+    
+}
+.rod_info {
+    list-style-type: none;
+}
+.contact_link{
+    align-content: center;
+}
+
+.grid-container{
+    display: grid;
+    background-color: lightgray;
+    padding: 16px;
+    margin: 20px;
+    gap: 1rem;
+    box-shadow: 5px 5px 10px gray;
+}
+.grid-item {
+    background-color: white;
+    padding: 15px;
+    gap: 0.5rem;
+    border: 16px solid black;
+    border-radius: 5px;
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px gray;
+}
+.grid-img {
+    max-width: 100%;
+    padding-bottom: 15px;
+}
+.knot-img {
+    min-width: 30vw;
+    max-width: 50vw;
+}
+.knotcontainer {
+    width: 90%;
+    margin: auto;
+}
+.tips {
+    padding: 30px;
+    margin: auto;
+    width: 40%;
+    font-size: small;
+    align-content: center;
+    background-color: lightgray;
+    border-radius: 5px;
+
+}
+/* we will use a mobile first approach, by prioritizing mobile design before
+desktop design. this rule below tells the stylesheet to use these rules if the
+width of the viewport exceeds 768 pixels. */
+
+/* THis rule is saying - after the screen width exceeds 768px, do these rules.  */
+@media (min-width: 768px) {
+    .hero {
+        width: 100%;
+        height: auto;
+    }
+    .grid-container {
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+}
+@media (max-width: 428px) {
+    .navbar
+
+    .fa {
+        padding: 20px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+    }
+    
+    /* Add a hover effect if you want */
+    .fa:hover {
+        opacity: 0.7;
+    }
+    
+    /* Set a specific color for each brand */
+    
+    /* Facebook */
+    .fa-youtube {
+        background: red;
+        color: white;
+    }
+    
+    /* Twitter */
+    .fa-instagram {
+        background: #55ACEE;
+        color: white;
+    }
+}
